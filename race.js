@@ -2,6 +2,7 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 let registeredEarly = true;
 let runnerAge = 24;
+// Control flow to add 1000 to raceNumber if the runner is an adult and registered early
 if (runnerAge > 18 && registeredEarly){
   raceNumber += 1000;
 }
